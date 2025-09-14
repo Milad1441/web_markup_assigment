@@ -19,7 +19,7 @@ p
 {
     color: grey;
 }
-li
+a
 {
     color: #FAAB36;
     margin: 5,2,2,5;
@@ -34,11 +34,11 @@ li
     border-radius: 10px;
     box-shadow: 5%;
 }
-#navlist
+.navlist
 {
     width: fill;
     height: 50px;
-    list-style-type: square;
+    list-style-type: none;
     margin: 5;
     padding: 5;
     overflow: fill;
