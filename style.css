@@ -61,18 +61,23 @@ nav a {
     border-radius: 12px;
     margin-right: 15px;
 }
-.card-btn
-{
+
+.card-btn {
     background-color: #005F60;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
     font-weight: bold;
-    margin-top: 10px;
-    
+    align-self: flex-start;
+    margin-top: 104px;
+}
+
+.card-content {
+    margin: 10px;
+    flex-direction: column;
+
 }
 
 @media screen and (max-width: 768px) {
